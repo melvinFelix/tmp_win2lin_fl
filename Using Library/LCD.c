@@ -9,7 +9,7 @@ int main(void)
 
 	while(1)
 	{
-		SendString("Testing");
+		SendString("Melvin Felix");
 		CursorPos(1,1);
 	}
 }
