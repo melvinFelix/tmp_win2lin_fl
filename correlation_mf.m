@@ -1,6 +1,6 @@
 %correlation of two functions
 function[y,y_def] = correlation_mf(x_in,h_in)
-%first input 
+%first input
 %x_in = [1 2 7 8 9 6 5 3 1];
 %x_in = input('enter the first sequence');
 
@@ -33,6 +33,5 @@ for i = 1:max_length
     loop_run = loop_run - 1;
 end
 
-y;
 y_def = xcorr(x_in,h_in);
-
+end
